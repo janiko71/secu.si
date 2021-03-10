@@ -1,0 +1,19 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+html, body {
+	/*font-family: "Source Sans Pro", "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif;*/
+	font-family: "Segoe UI", "Ubuntu", "Droid Sans", sans-serif;
+	font-size: 12px;
+	padding: 0 26px;
+	line-height: 1.5em;
+	word-wrap: break-word;
+}
+
+
+.element {
+  margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
